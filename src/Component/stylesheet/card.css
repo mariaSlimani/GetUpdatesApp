@@ -1,0 +1,18 @@
+.card{
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.card.card_content{
+    background-color: var(--secondaryTextColor);
+    border: 1px solid var(--mainBgColor_darker);
+    color: var(--mainTextColor);
+
+}
+.card.card_stats{
+    border: 1px solid var(--secondaryTextColor);
+    color: var(--secondaryTextColor);
+    background-color: var(--mainBgColor_darker);
+
+}
